@@ -26,10 +26,20 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7%;
 }
+
 .tarjet{
-    background-color: red;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    width: 525px;
+    height: 370px;
+    border-radius: 7%;
 }
 .Summary{
-    background-color: aqua;
+    background-color: white;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
 }
