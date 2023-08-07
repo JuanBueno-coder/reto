@@ -20,6 +20,13 @@ body{
     align-items: center;
     flex-direction: column;
 }
+.Summary{
+    width: auto;
+    height: 370px;
+    align-items: center;
+    display: grid;
+    align-content: space-between;
+}
 .center{
     position: absolute;
     top: 50%;
@@ -28,18 +35,16 @@ body{
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 7%;
+    align-items: center;
+    width: 561px;
+    height: 370px;
+
 }
 
 .tarjet{
     background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     text-align: center;
-    width: 525px;
+    width: auto;
     height: 370px;
     border-radius: 7%;
-}
-.Summary{
-    background-color: white;
-    width: auto;
-    height: auto;
-    border-radius: 100%;
 }
